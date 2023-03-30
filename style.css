@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'retro_gamingregular';
+    src: url('font/retro_gaming-webfont.woff2') format('woff2'),
+        url('font/retro_gaming-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#titre {
+    text-align: center;
+    font-family: 'retro_gamingregular';
+    color: white;
+    margin-top: 65px;
+    text-shadow: 1px 1px 0 #873900, 2px 2px 0 #963F00, 3px 3px;
+}
+
+body {
+    background-color: violet;
+}
+
+button {
+    color: #a11692;
+    background-color: white;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 10px;
+    padding: 0.7em 1.8em;
+    display: inline-block;
+    font-size: 2em;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-family: 'retro_gamingregular';
+    display: flex;
+    margin: 50px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+button:hover,
+button:active {
+    border: 3.5px solid #a11692;
+    border-radius: 10px;
+}
