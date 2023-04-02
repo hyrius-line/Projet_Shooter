@@ -7,21 +7,48 @@
 
 }
 
+html {
+    font-family: 'retro_gamingregular';
+}
+
+#createur {
+    font-size: 20px;
+    color: azure;
+    position: absolute;
+    bottom: 0px;
+    text-decoration: overline;
+}
 
 #titre {
+    font-size: 60px;
     text-align: center;
-    font-family: 'retro_gamingregular';
     color: white;
     margin-top: 65px;
-    text-shadow: 1px 1px 0 #873900, 2px 2px 0 #963F00, 3px 3px;
+    text-shadow: 1px 1px 0 black, 2px 2px 0 black, 3px 3px;
 }
 
 body {
-    background-color: violet;
+    background-image: url('https://thumbs.gfycat.com/OilySillyFossa-size_restricted.gif');
+    background-size: 100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.boutons_accueil {
+    margin-top: 85px;
+}
+
+.boutons_accueil,a{
+    text-decoration: none;
 }
 
 button {
-    color: #a11692;
+    font-family: 'retro_gamingregular';
+    color: black;
     background-color: white;
     border: 2px solid rgba(255, 255, 255, 0);
     border-radius: 10px;
@@ -30,19 +57,15 @@ button {
     font-size: 2em;
     letter-spacing: 2px;
     cursor: pointer;
-    font-family: 'retro_gamingregular';
     display: flex;
     margin: 50px;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px rgb(137, 137, 137);
     margin-left: auto;
     margin-right: auto;
-
-
-
 }
 
 button:hover,
 button:active {
-    border: 3.5px solid #a11692;
+    border: 3.5px solid black;
     border-radius: 10px;
 }
